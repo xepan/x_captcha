@@ -6,7 +6,7 @@
  * Time: 9:53 PM
  * To change this template use File | Settings | File Templates.
  */
-namespace x_captcha;
+namespace xepan\captcha;
 class View_Captcha extends \View {
     public $Imagick;
     public $bg_color           = 'white';
