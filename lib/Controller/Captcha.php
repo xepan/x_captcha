@@ -6,9 +6,9 @@
  * Time: 9:57 PM
  * To change this template use File | Settings | File Templates.
  */
-namespace x_captcha;
+namespace xepan\captcha;
 class Controller_Captcha extends \Controller {
-    public $view_class = 'x_captcha\View_Captcha';
+    public $view_class = 'xepan\captcha\View_Captcha';
     public $captcha_session_id = null;
     public $session_name;
     public $view;
